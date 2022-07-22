@@ -1,0 +1,84 @@
+# Noticia routing definition
+noticia.settings_tab:
+  route_name: noticia.settings
+  title: 'Settings'
+  base_route: noticia.settings
+
+entity.noticia.canonical:
+  route_name: entity.noticia.canonical
+  base_route: entity.noticia.canonical
+  title: 'View'
+
+entity.noticia.edit_form:
+  route_name: entity.noticia.edit_form
+  base_route: entity.noticia.canonical
+  title: 'Edit'
+
+entity.noticia.delete_form:
+  route_name:  entity.noticia.delete_form
+  base_route:  entity.noticia.canonical
+  title: Delete
+  weight: 10
+# Mesa routing definition
+mesa.settings_tab:
+  route_name: mesa.settings
+  title: 'Settings'
+  base_route: mesa.settings
+
+entity.mesa.canonical:
+  route_name: entity.mesa.canonical
+  base_route: entity.mesa.canonical
+  title: 'View'
+
+entity.mesa.edit_form:
+  route_name: entity.mesa.edit_form
+  base_route: entity.mesa.canonical
+  title: 'Edit'
+
+entity.mesa.delete_form:
+  route_name:  entity.mesa.delete_form
+  base_route:  entity.mesa.canonical
+  title: Delete
+  weight: 10
+# Mensaje routing definition
+mensaje.settings_tab:
+  route_name: mensaje.settings
+  title: 'Settings'
+  base_route: mensaje.settings
+
+entity.mensaje.canonical:
+  route_name: entity.mensaje.canonical
+  base_route: entity.mensaje.canonical
+  title: 'View'
+
+entity.mensaje.edit_form:
+  route_name: entity.mensaje.edit_form
+  base_route: entity.mensaje.canonical
+  title: 'Edit'
+
+entity.mensaje.delete_form:
+  route_name:  entity.mensaje.delete_form
+  base_route:  entity.mensaje.canonical
+  title: Delete
+  weight: 10
+# Video routing definition
+video.settings_tab:
+  route_name: video.settings
+  title: 'Settings'
+  base_route: video.settings
+
+entity.video.canonical:
+  route_name: entity.video.canonical
+  base_route: entity.video.canonical
+  title: 'View'
+
+entity.video.edit_form:
+  route_name: entity.video.edit_form
+  base_route: entity.video.canonical
+  title: 'Edit'
+
+entity.video.delete_form:
+  route_name:  entity.video.delete_form
+  base_route:  entity.video.canonical
+  title: Delete
+  weight: 10

@@ -1,0 +1,104 @@
+proedm.app_content:
+    path: '/app/content'
+    defaults:
+      _controller: '\Drupal\proedm\Controller\AppController::content'
+      _title: 'App'
+    requirements:
+      _access: 'TRUE' 
+
+proedm.app_help:
+  path: '/app/help'
+  defaults:
+    _controller: '\Drupal\proedm\Controller\AppController::help'
+    _title: 'App'
+  requirements:
+    _custom_access: '\Drupal\proedm\Controller\AppController::access'
+
+proedm.app_sign_in:
+  path: '/app/sign_in'
+  defaults:
+    _controller: '\Drupal\proedm\Controller\AppController::sign_in'
+    _title: 'App'
+  requirements:
+    _custom_access: '\Drupal\proedm\Controller\AppController::access'
+
+proedm.app_usuario_edit:
+  path: '/app/usuario_edit'
+  defaults:
+    _controller: '\Drupal\proedm\Controller\AppController::usuario_edit'
+    _title: 'App'
+  requirements:
+    _custom_access: '\Drupal\proedm\Controller\AppController::access'
+    
+proedm.app_usuario_password:
+  path: '/app/usuario_password'
+  defaults:
+    _controller: '\Drupal\proedm\Controller\AppController::usuario_password'
+    _title: 'App'
+  requirements:
+    _custom_access: '\Drupal\proedm\Controller\AppController::access'
+    
+proedm.app_keywords:
+  path: '/app/keywords'
+  defaults:
+    _controller: '\Drupal\proedm\Controller\AppController::keywords'
+    _title: 'App'
+  requirements:
+    _access: 'TRUE'
+    
+proedm.app_usuario_nuevo:
+  path: '/app/usuario_nuevo'
+  defaults:
+    _controller: '\Drupal\proedm\Controller\AppController::usuario_nuevo'
+    _title: 'App'
+  requirements:
+    _custom_access: '\Drupal\proedm\Controller\AppController::access'
+    
+proedm.app_post_nuevo:
+  path: '/app/post_nuevo'
+  defaults:
+    _controller: '\Drupal\proedm\Controller\AppController::post_nuevo'
+    _title: 'App'
+  requirements:
+    _custom_access: '\Drupal\proedm\Controller\AppController::access'
+
+proedm.app_post_comments:
+  path: '/app/post_comments'
+  defaults:
+    _controller: '\Drupal\proedm\Controller\AppController::post_comments'
+    _title: 'App'
+  requirements:
+    _custom_access: '\Drupal\proedm\Controller\AppController::access'
+    
+proedm.app_post_comment:
+  path: '/app/post_comment'
+  defaults:
+    _controller: '\Drupal\proedm\Controller\AppController::post_comment'
+    _title: 'App'
+  requirements:
+    _custom_access: '\Drupal\proedm\Controller\AppController::access'
+
+proedm.app_profile_get_image:
+  path: '/app/profile_get_image'
+  defaults:
+    _controller: '\Drupal\proedm\Controller\AppController::profile_get_image'
+    _title: 'App'
+  requirements:
+    _custom_access: '\Drupal\proedm\Controller\AppController::access'
+
+proedm.app_profile_edit_image:
+  path: '/app/profile_edit_image'
+  defaults:
+    _controller: '\Drupal\proedm\Controller\AppController::profile_edit_image'
+    _title: 'App'
+  requirements:
+    _custom_access: '\Drupal\proedm\Controller\AppController::access'
+
+proedm.app_get_doc_list:
+  path: '/app/app_get_doc_list'
+  defaults:
+    _controller: '\Drupal\proedm\Controller\AppController::app_get_doc_list'
+    _title: 'App'
+  requirements:
+     _access: 'TRUE'
+    

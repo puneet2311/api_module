@@ -1,0 +1,22 @@
+{#
+/**
+ * @file video.html.twig
+ * Default theme implementation to present Video data.
+ *
+ * This template is used when viewing Video pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_video()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('video') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

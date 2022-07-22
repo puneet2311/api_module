@@ -1,0 +1,56 @@
+
+# Noticia menu items definition
+entity.noticia.collection:
+  title: 'Noticia list'
+  route_name: entity.noticia.collection
+  description: 'List Noticia entities'
+  parent: system.admin_structure
+  weight: 100
+
+noticia.admin.structure.settings:
+  title: 'Noticia settings'
+  description: 'Configure Noticia entities'
+  route_name: noticia.settings
+  parent: system.admin_structure
+
+# Mesa menu items definition
+entity.mesa.collection:
+  title: 'Mesa list'
+  route_name: entity.mesa.collection
+  description: 'List Mesa entities'
+  parent: system.admin_structure
+  weight: 100
+
+mesa.admin.structure.settings:
+  title: 'Mesa settings'
+  description: 'Configure Mesa entities'
+  route_name: mesa.settings
+  parent: system.admin_structure
+
+# Mensaje menu items definition
+entity.mensaje.collection:
+  title: 'Mensaje list'
+  route_name: entity.mensaje.collection
+  description: 'List Mensaje entities'
+  parent: system.admin_structure
+  weight: 100
+
+mensaje.admin.structure.settings:
+  title: 'Mensaje settings'
+  description: 'Configure Mensaje entities'
+  route_name: mensaje.settings
+  parent: system.admin_structure
+
+# Video menu items definition
+entity.video.collection:
+  title: 'Video list'
+  route_name: entity.video.collection
+  description: 'List Video entities'
+  parent: system.admin_structure
+  weight: 100
+
+video.admin.structure.settings:
+  title: 'Video settings'
+  description: 'Configure Video entities'
+  route_name: video.settings
+  parent: system.admin_structure

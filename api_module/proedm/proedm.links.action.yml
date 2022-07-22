@@ -1,0 +1,20 @@
+entity.noticia.add_form:
+  route_name: entity.noticia.add_form
+  title: 'Add Noticia'
+  appears_on:
+    - entity.noticia.collection
+entity.mesa.add_form:
+  route_name: entity.mesa.add_form
+  title: 'Add Mesa'
+  appears_on:
+    - entity.mesa.collection
+entity.mensaje.add_form:
+  route_name: entity.mensaje.add_form
+  title: 'Add Mensaje'
+  appears_on:
+    - entity.mensaje.collection
+entity.video.add_form:
+  route_name: entity.video.add_form
+  title: 'Add Video'
+  appears_on:
+    - entity.video.collection

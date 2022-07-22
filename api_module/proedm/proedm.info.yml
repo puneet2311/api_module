@@ -1,0 +1,5 @@
+name: 'Prosperidad en Democracia'
+type: module
+description: 'Módulo de Soporte'
+core_version_requirement: ^9
+package: 'PnD'

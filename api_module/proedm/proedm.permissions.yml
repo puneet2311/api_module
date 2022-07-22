@@ -1,0 +1,80 @@
+add noticia entities:
+  title: 'Create new Noticia entities'
+
+administer noticia entities:
+  title: 'Administer Noticia entities'
+  description: 'Allow to access the administration form to configure Noticia entities.'
+  restrict access: true
+
+delete noticia entities:
+  title: 'Delete Noticia entities'
+
+edit noticia entities:
+  title: 'Edit Noticia entities'
+
+view published noticia entities:
+  title: 'View published Noticia entities'
+
+view unpublished noticia entities:
+  title: 'View unpublished Noticia entities'
+
+add mesa entities:
+  title: 'Create new Mesa entities'
+
+administer mesa entities:
+  title: 'Administer Mesa entities'
+  description: 'Allow to access the administration form to configure Mesa entities.'
+  restrict access: true
+
+delete mesa entities:
+  title: 'Delete Mesa entities'
+
+edit mesa entities:
+  title: 'Edit Mesa entities'
+
+view published mesa entities:
+  title: 'View published Mesa entities'
+
+view unpublished mesa entities:
+  title: 'View unpublished Mesa entities'
+
+add mensaje entities:
+  title: 'Create new Mensaje entities'
+
+administer mensaje entities:
+  title: 'Administer Mensaje entities'
+  description: 'Allow to access the administration form to configure Mensaje entities.'
+  restrict access: true
+
+delete mensaje entities:
+  title: 'Delete Mensaje entities'
+
+edit mensaje entities:
+  title: 'Edit Mensaje entities'
+
+view published mensaje entities:
+  title: 'View published Mensaje entities'
+
+view unpublished mensaje entities:
+  title: 'View unpublished Mensaje entities'
+
+add video entities:
+  title: 'Create new Video entities'
+
+administer video entities:
+  title: 'Administer Video entities'
+  description: 'Allow to access the administration form to configure Video entities.'
+  restrict access: true
+
+delete video entities:
+  title: 'Delete Video entities'
+
+edit video entities:
+  title: 'Edit Video entities'
+
+view published video entities:
+  title: 'View published Video entities'
+
+view unpublished video entities:
+  title: 'View unpublished Video entities'
+
